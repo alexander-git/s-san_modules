@@ -1,0 +1,6 @@
+
+.grid-view td.actionColumn {
+    white-space : nowrap;
+    text-align : left;
+    letter-spacing : 0.1em;
+}

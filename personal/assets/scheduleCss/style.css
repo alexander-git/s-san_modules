@@ -1,0 +1,104 @@
+.schedulePanel {
+    
+}
+
+table.schedule {
+    width : 100%;
+    border-collapse: collapse;
+    border : 2px solid black;
+}
+
+tr.schedule__headTop td {
+    border : none;
+    border-top : 2px solid black;
+}
+
+td.schedule__headName {
+    text-align : center;
+}
+
+td.schedule__headTime {
+    width : 3%;
+}
+
+td  div.schedule__headTimeLabel {
+    position : relative;
+    left : -50%;
+    text-align : center;
+}
+
+tr.schedule__headBottom td {
+    border : 2px solid black;
+    border-top : none;
+    height : 15px;
+}
+
+table tbody.schedule__body tr.schedule__groupName {   
+    border : 2px solid black;
+    height : 50px;
+}
+
+tr.schedule__groupName td.schedule__groupNameCell {
+    border-right : none;
+    text-align : center;
+}
+
+tr.schedule__groupName td.schedule__groupNameEmptyCell {
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    border-right : none;
+    border-left : none;
+}
+
+tbody.schedule__body tr {
+    height : 50px; /* Чтобы div.schedule__workTimeContainer height : 100% сработало*/
+}
+
+tbody.schedule__body td.schedule__time {
+    border : 1px solid black;
+    cursor : pointer;
+    height : 50px; /* Чтобы div.schedule__workTimeContainer height : 100% сработало*/
+}
+
+td.schedule__time div.schedule__workTimeContainer {
+    /*border : 2px solid red;*/
+   position : relative;
+   height : 100%;
+}
+
+tbody.schedule__body td.schedule__name {
+    border : 2px solid black;
+    height : 50px;
+    vertical-align : middle;
+    text-align : center;
+}
+
+.schedule__workTime {
+    position : absolute;
+    margin-top : 25%;
+    text-align : center;
+    z-index : 100;
+    border-radius : 5px;
+    padding : 5px;
+}
+
+.schedule__workTime .schedule__workTimeInterval {
+    position : static;
+    float : left;
+    text-align : center;
+    width : 100%;
+}
+
+.schedule__workTime .schedule__workTimeDelete {
+    position : static;
+    float : right;
+    left : 100%;
+    margin-left : -30px;
+    width : 30px;
+    cursor : pointer;
+}
+
+.schedule__amountTime {
+    font-weight: bold;
+    margin-left : 10px;
+}

@@ -1,0 +1,244 @@
+.leftColumn {
+    width : 70%;
+    float : left;
+    text-align : left;
+}
+
+.rightColumn {
+    width : 30%;
+    float : right;
+    text-align : right;
+}
+
+.clearBoth {
+    clear : both;
+}
+
+.borderDottedTop {
+    border-top : 0.2ex dotted black;
+}
+
+
+.borderDottedBottom {
+    border-bottom : 0.2ex dotted black;
+}
+
+.fontBold {
+    font-weight : bold;
+    
+}
+
+.block {
+    padding : 0.5ex;
+}
+
+.textCenter {
+    text-align : center; 
+}
+
+.checkCourier {
+    padding-top : 10ex;
+    margin-left : 5%;
+    margin-right : 5%;
+    font-size : 3pt;
+}
+
+.checkCourier .checkCourier__headInfo {
+    text-align : center;
+    font-size : 125%;  
+}
+
+.checkCourier .checkCourier__orderInfo {
+    margin-top : 3ex;
+    padding : 0.5ex;
+    text-align : left;
+}
+
+.checkCourier .checkCourier__productsTable {
+    border-top :  0.2ex dotted black;
+    padding : 0ex;
+    margin : 0ex;
+    margin-top : 2ex;
+    font-size : 100%;
+}
+
+.checkCourier__productsTable td {
+    padding : 0ex;
+    margin : 0ex;
+    border-bottom : 0.2ex dotted black;
+}
+
+
+.checkCourier__productsTable tr {
+
+}
+
+.checkCourier .checkCourier__restaurantName {
+    margin-top : 3ex; 
+    text-align : center;
+    padding : 0.5ex;
+}
+
+.checkCourier .checkCourier__expirationDate {
+    margin-top : 4ex;
+    padding : 0.3ex;
+}
+
+.checkCourier .checkCourier__expirationDateInfo {
+    margin-top : 6ex;
+    padding : 0.3ex;
+    font-size : 130%;
+}
+
+.checkCourier__footerInfo {
+    margin-top : 10ex;
+    text-align : center;
+    font-size : 90%;
+}
+
+/******************************************************************************/
+
+.checkClient {
+    padding-top : 10ex;
+    margin-left : 5%;
+    margin-right : 5%;
+    font-size : 3pt;
+}
+
+.checkClient .checkClient__restaurantName {
+    margin-top : 3ex; 
+    text-align : center;
+    padding : 0.5ex;
+}
+
+.checkClient .checkClient__cityName {
+    margin-top : 3ex;
+    margin-bottom : 5ex;
+    text-align : center;
+}
+
+.checkClient .checkClient__headerOrderNum {
+    text-align : center;
+    font-size : 125%;
+    font-weight : bold;
+}
+
+.checkClient .checkClient__headerDeliveryDate {
+    margin-bottom : 1ex;
+    text-align : center;
+    font-size : 125%;
+    font-weight : bold;
+}
+
+.checClient .checkClient__clientInfo {
+    
+}
+
+.checkClient__clientInfo .checkClient__clientInfoLeft {
+    width : 25%;
+    float : left;
+    text-align : left;
+    padding : 0.5ex;
+}
+
+.checkClient__clientInfo .checkClient__clientInfoRight {
+    width : 70%;
+    float : right;
+    text-align : left;
+    border : 0.2ex solid black;
+}
+
+.checkClient .checkClient__personNum {
+    
+}
+
+.checkClient__personNum .checkClient__personNumLeft {
+    float : left;
+    width : 50%;
+    text-align : left;
+}
+
+.checkClient__personNum.checkClient__personNumRight {
+    float : right;
+    width : 50%;
+    padding-left : 15ex;
+    text-align : left;
+}
+
+.checkClient .checkClient__comment {
+    
+}
+
+.checkClient__comment .checkClient__commentLeft {
+    float : left;
+    width : 50%;
+    text-align : left;
+}
+
+.checkClient__comment .checkClient__commentRight {
+    float : right;
+    width : 50%;
+    padding-left : 15ex;
+    text-align : left;
+}
+
+.checkClient .checkClient__orderInfo {
+    margin-top : 8ex;
+    padding : 0.5ex;
+    text-align : left;
+}
+
+.checkClient .checkClient__productsTable {
+    border-top :  0.2ex dotted black;
+    padding : 0ex;
+    margin : 0ex;
+    margin-top : 2ex;
+    font-size : 100%;
+}
+
+.checkClient__productsTable td {
+    padding : 0ex;
+    margin : 0ex;
+    border-bottom : 0.2ex dotted black;
+}
+
+.checkClient__productsTable tr {
+
+}
+
+.checkClient .checkClient__summaryTotalPay  {
+    margin-bottom : 3ex;
+    padding : 0.3ex;
+    font-size : 125%;
+}
+
+.checkClient__summaryTotalPay .checkClient__summaryTotalPayLeft {
+    width : 50%;
+    float : left;
+    text-align : left;
+}
+
+.checkClient__summaryTotalPay .checkClient__summaryTotalPayRight {
+    width : 50%;
+    float : right;
+    text-align : right;
+}
+
+.checkClient .checkClient__divTopLine {
+    margin-top : 3ex;
+    border-top : 0.2ex solid black;
+}
+
+.checkClient .checkClient__footerDeliveryDate {
+    margin-top : 1ex;
+    text-align : center;
+    font-size : 125%;
+    font-weight : bold;
+}
+
+.checkClient .checkClient__footerOrderNum {
+    text-align : center;
+    font-size : 125%;
+    font-weight : bold;
+}
+

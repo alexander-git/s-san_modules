@@ -1,0 +1,155 @@
+.orderMenu {
+    margin-bottom : 30px; 
+}
+
+.topPanel {
+    margin-bottom : 30px;
+}
+
+.citySelectButton {
+    font-size : 16px;
+    cursor : pointer;
+}
+
+.citySelectButton:hover {
+    text-decoration : underline;
+}
+
+.cityName {
+    font-size : 16px;
+}
+
+.cartTotal {
+    font-size : 16px;
+    padding : 5px;
+    border-radius : 5px;
+    text-align: center;
+}
+
+.categoryName {
+    font-size : 25px;
+    padding : 10px;
+    border-radius : 5px;
+}
+
+.product {
+    width : 380px;
+    float : left;
+    margin-right : 50px;
+    margin-bottom : 25px;
+    background-color: #F3F3F3;
+    padding : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    border-radius : 5px;
+}
+
+.product__productName {
+    font-size : 18px;
+}
+
+.product__price {
+    padding : 5px;
+}
+
+.product__addButtonContainer {
+    
+}
+
+.product__imageContainer {
+    height : 150px;
+}
+
+.product__image {
+    max-height : 150px;
+}
+
+.product__optionName {
+    margin-left : 20px;
+}
+
+.product__optionValues {
+    margin-left : 20px;
+}
+
+.cartProduct {
+    margin-bottom : 25px;
+    background-color: #F3F3F3;
+    display: table;
+    width : 100%;
+    padding : 10px;
+    border-radius: 5px;
+}
+
+
+.cartProduct__productName {
+    display: table-cell;
+    vertical-align: middle;
+    width : 20%;
+    padding-left : 10px; 
+    text-align : left;
+}
+
+.cartProduct__imageContainer {
+    display: table-cell;
+    vertical-align: middle;
+    width : 15%;
+    height : 150px;
+}
+
+.cartProduct__count {
+    display: table-cell;
+    vertical-align: middle;
+    width : 25%;
+    padding-right : 80px;
+    padding-left : 20px;
+}
+
+.cartProduct__price {
+    display: table-cell;
+    vertical-align: middle;
+    width : 15%;
+}
+
+.cartProduct__totalPrice {
+    display: table-cell;
+    vertical-align: middle;
+    width : 15%;
+}
+
+.cartProduct__deleteButton {
+    display: table-cell;
+    vertical-align: middle;
+    width : 10%;
+    padding-right : 10px; 
+    text-align : right;
+}
+
+.clientNameInfo {
+    padding : 10px;
+    border-radius : 5px;
+    margin-bottom : 30px;
+}
+
+.clientAddressInfo {
+    padding : 10px;
+    border-radius : 5px;
+    margin-bottom : 30px;
+}
+
+.clientBonusesInfo {
+    padding : 10px;
+    border-radius : 5px;
+    margin-bottom : 30px;
+}
+
+.possibleDeliveryTimeInfo {
+    padding : 10px;
+    border-radius : 5px;
+}
+
+.information {
+    padding : 10px;
+    border-radius : 5px;
+    margin-bottom : 30px;
+}

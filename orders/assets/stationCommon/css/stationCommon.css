@@ -1,0 +1,43 @@
+.stationTopPanel
+{
+    margin-bottom : 30px;
+    padding : 10px;
+    border-radius : 5px;
+}
+
+.gray {
+    background-color : #AAAAAA; 
+}
+
+.red {
+    background-color: #AA0000;
+}
+
+.green {
+    background-color: #00AA00;
+}
+
+.blue {
+    background-color : #40A0E0; 
+}
+
+.orange {
+    background-color : #FAAA00; 
+}
+
+.white {
+    background-color : #FFFFFF;
+}
+
+
+.orangeIcon {
+    padding : 3px;
+    border-radius : 5px;
+    background-color : #FAAA00;  
+}
+
+.redIcon {
+    padding : 5px;
+    border-radius : 5px;
+    background-color: #AA0000; 
+}
